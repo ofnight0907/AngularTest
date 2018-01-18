@@ -17,7 +17,6 @@ install:
 script:
   - yarn run lint
   - yarn run test -- --watch=false
-  - yarn run pree2e
   - yarn run e2e
 notifications:
   email:
