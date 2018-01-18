@@ -13,6 +13,6 @@ export class AppComponent implements OnInit {
   }
 
   changeTitle() {
-    this.title += this.title;
+    // this.title += this.title;
   }
 }
