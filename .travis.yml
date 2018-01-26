@@ -13,8 +13,7 @@ install:
   - yarn
 script:
   - yarn run lint
-  - yarn run test -- --watch=false
-  - yarn run e2e
+  - yarn run test
 notifications:
   email:
     recipients:
